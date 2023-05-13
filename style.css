@@ -1,0 +1,119 @@
+body {
+	background-color: #2C3E50; /* Midnight Blue */
+	font-family: Arial, sans-serif;
+	color: #fff; /* White */
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px;
+	background-color: #34495E; /* Wet Asphalt */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 10px;
+	font-size: 48px;
+	color: #F1C40F; /* Sunflower */
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 30px;
+	color: #3498DB; /* Peter River */
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+li {
+	margin-right: 30px;
+}
+
+a {
+	color: #BDC3C7; /* Silver */
+	text-decoration: none;
+	font-size: 18px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid transparent;
+	transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+
+#about {
+	border-top: 1px solid #F1C40F; /* Sunflower */
+	border-bottom: 1px solid #F1C40F; /* Sunflower */
+	padding: 20px 0;
+}
+
+#about h3 {
+	color: #F1C40F; /* Sunflower */
+}
+
+#skills {
+	border-top: 1px solid #3498DB; /* Peter River */
+	border-bottom: 1px solid #3498DB; /* Peter River */
+	padding: 20px 0;
+}
+
+#skills h3 {
+	color: #3498DB; /* Peter River */
+}
+
+#contact {
+	border-top: 1px solid #E67E22; /* Carrot */
+	border-bottom: 1px solid #E67E22; /* Carrot */
+	padding: 20px 0;
+}
+
+#contact h3 {
+	color: #E67E22; /* Carrot */
+}
+
+ul.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+ul.social li {
+	margin-right: 20px;
+}
+
+ul.social li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+	padding: 10px;
+	border-radius: 50%;
+	transition: all 0.3s ease-in-out;
+}
+
+ul.social li a:hover {
+	background-color: #fff;
+	color: #2C3E50; /* Midnight Blue */
+}
